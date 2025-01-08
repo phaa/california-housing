@@ -1,4 +1,4 @@
-# 🏠 **Projeto de Machine Learning: Previsão de Preços de Habitação**
+# 🏠 **Projeto de Machine Learning: Previsão de Preços na Califórnia**
 
 ## 📊 **Descrição do Projeto**  
 Este projeto foi desenvolvido para consolidar os fundamentos de **Machine Learning**, aplicando técnicas de análise exploratória de dados (EDA), pré-processamento, modelagem e avaliação de modelos preditivos. Utilizamos o famoso **dataset California Housing**, que contém informações detalhadas sobre características de imóveis na Califórnia.
