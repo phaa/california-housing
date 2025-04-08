@@ -30,7 +30,8 @@ Este projeto foi desenvolvido para consolidar os fundamentos de **Machine Learni
 - Validação cruzada para garantir robustez nos resultados.  
 
 ### 4️⃣ **Avaliação**  
-- Métricas utilizadas: **Mean Squared Error (MSE)**, **R²**.  
+- Métricas utilizadas: **Mean Squared Error (MSE)**, **R²**.
+- Uso de técnica de validação cruzada para evitar data-leakage
 - Intervalos de confiança para analisar a variabilidade das previsões.  
 
 ---
@@ -51,7 +52,7 @@ Os modelos foram avaliados com métricas robustas, e gráficos comparativos entr
 
 1. Clone este repositório:  
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/phaa/california-housing.git
 ```
 
 2. Crie um ambiente Anaconda:
