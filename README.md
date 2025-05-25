@@ -1,79 +1,102 @@
-# 🏠 **Projeto de Machine Learning: Previsão de Preços na Califórnia**
+# Machine Learning Project: California Housing Price Prediction
 
-## 📊 **Descrição do Projeto**  
-Este projeto foi desenvolvido para consolidar os fundamentos de **Machine Learning**, aplicando técnicas de análise exploratória de dados (EDA), pré-processamento, modelagem e avaliação de modelos preditivos. Utilizamos o famoso **dataset California Housing**, que contém informações detalhadas sobre características de imóveis na Califórnia.
+## Project Description
 
----
-
-## 🛠️ **Tecnologias e Bibliotecas Utilizadas**  
-- **Python** 🐍  
-- **Pandas** 📑  
-- **NumPy** 🔢  
-- **Matplotlib** 📊  
-- **Scikit-learn** 🤖  
+This project was developed to consolidate the fundamentals of **Machine Learning**, applying techniques of exploratory data analysis (EDA), preprocessing, modeling, and evaluation of predictive models. We used the well-known **California Housing dataset**, which contains detailed information about property characteristics in California. This project was inspired by and developed while following the concepts from the book "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron.
 
 ---
 
-## 🚀 **Principais Etapas do Projeto**  
+## Tools and Libraries Used
 
-### 1️⃣ **Aquisição e Preparação dos Dados**  
-- Download do dataset diretamente de um repositório online.  
-- Pré-processamento com **pipelines** e transformadores personalizados.  
-
-### 2️⃣ **Análise Exploratória de Dados (EDA)**  
-- Histogramas e gráficos de dispersão.  
-- Mapas de correlação para identificar relações entre variáveis.  
-
-### 3️⃣ **Modelagem**  
-- Algoritmos aplicados: **Regressão Linear**, **Árvore de Decisão**, entre outros.  
-- Ajuste de hiperparâmetros com **Grid Search** e **Random Search**.  
-- Validação cruzada para garantir robustez nos resultados.  
-
-### 4️⃣ **Avaliação**  
-- Métricas utilizadas: **Mean Squared Error (MSE)**, **R²**.
-- Uso de técnica de validação cruzada para evitar data-leakage
-- Intervalos de confiança para analisar a variabilidade das previsões.  
+-   **Python**
+-   **Pandas**
+-   **NumPy**
+-   **Matplotlib**
+-   **Scikit-learn**
 
 ---
 
-## 📊 **Resultados**  
-Os modelos foram avaliados com métricas robustas, e gráficos comparativos entre valores reais e previstos foram gerados para melhor visualização dos resultados.
+## Key Project Steps
+
+### 1. Data Acquisition and Preparation
+
+-   Dataset download directly from an online repository.
+-   Preprocessing with **pipelines** and custom transformers.
+
+### 2. Exploratory Data Analysis (EDA)
+
+-   Histograms and scatter plots.
+-   Correlation maps to identify relationships between variables.
+
+### 3. Modeling
+
+-   Algorithms applied: **Linear Regression**, **Decision Tree**, among others.
+-   Hyperparameter tuning with **Grid Search** and **Random Search**.
+-   Cross-validation to ensure robust results.
+
+### 4. Evaluation
+
+-   Metrics used: **Mean Squared Error (MSE)**, **R²**.
+-   Use of cross-validation technique to prevent data leakage.
+-   Confidence intervals to analyze the variability of predictions.
 
 ---
 
-## 🖼️ **Visualizações Principais**  
-- Histogramas mostrando a distribuição das variáveis.  
-- Gráficos de dispersão para identificar padrões.  
-- Comparação visual entre previsões e valores reais.  
+## Results
+
+The models were evaluated with robust metrics, and comparative graphs between actual and predicted values were generated for better visualization of the results.
 
 ---
 
-## 📚 **Como Executar o Projeto**  
+## Main Visualizations
 
-1. Clone este repositório:  
-```bash
-git clone https://github.com/phaa/california-housing.git
-```
+-   Histograms showing variable distribution.
+-   Scatter plots to identify patterns.
+-   Visual comparison between predictions and actual values.
 
-2. Crie um ambiente Anaconda:
-```bash
-conda create -n housing-env python=3.9
-```
+---
 
-3. Ative o ambiente
-```bash
-conda activate housing-env
-```
+## How to Run the Project
 
-4. Instale as dependências:
-```bash
-conda install --file requirements.txt
-```
+1.  Clone this repository:
 
-5. Execute o Jupyter Lab: 
-```bash
-jupyter lab
-```
+    ```bash
+    git clone [https://github.com/phaa/california-housing.git](https://github.com/phaa/california-housing.git)
+    ```
 
-5. Abra o arquivo Housing.ipynb e execute as células.
+2.  Create an Anaconda environment:
 
+    ```bash
+    conda create -n housing-env python=3.9
+    ```
+
+3.  Activate the environment:
+
+    ```bash
+    conda activate housing-env
+    ```
+
+4.  Install the dependencies:
+
+    ```bash
+    conda install --file requirements.txt
+    ```
+
+5.  Execute Jupyter Lab:
+
+    ```bash
+    jupyter lab
+    ```
+
+6.  Open the `Housing.ipynb` file and run the cells.
+
+---
+
+## Notes
+
+This project serves as a practical application of fundamental Machine Learning concepts, following best practices for data analysis and model development.
+---
+
+## Developer
+
+[Pedro Azevedo](https://www.linkedin.com/in/pedro-henrique-amorim-de-azevedo/)
