@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project was developed to consolidate the fundamentals of **Machine Learning**, applying techniques of exploratory data analysis (EDA), preprocessing, modeling, and evaluation of predictive models. We used the well-known **California Housing dataset**, which contains detailed information about property characteristics in California. This project was inspired by and developed while following the concepts from the book "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron.
+This project was developed to solidify core **Machine Learning** principles, diving into advanced techniques for predicting house prices in California. Leveraging the renowned **California Housing dataset**, it encompasses a comprehensive workflow including **feature engineering**, sophisticated **exploratory data analysis (EDA)** with advanced plotting, robust **data preprocessing using pipelines**, and **model building**. We explored various algorithms, fine-tuned hyperparameters with **Grid Search** and **Random Search**, and ensured model reliability through **cross-validation** and analysis of **confidence intervals**. This project was inspired by and developed while diligently following the concepts from the book "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron.
 
 ---
 
